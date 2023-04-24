@@ -1,0 +1,8 @@
+---
+- name: Windows Servers
+  hosts: 192.168.1.6
+
+  tasks:
+    - name: Pinging Windows Servers
+      win_ping:
+        data: pong
