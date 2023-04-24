@@ -1,0 +1,6 @@
+---
+ - name: Using Visual Code Editor
+   hosts: 192.168.1.6
+   tasks:
+     - debug:
+         msg: "Hello World"
